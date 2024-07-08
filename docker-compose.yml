@@ -48,4 +48,10 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
       #- ./nginx/nginx.conf:/data/nginx/custom/http_top.conf
+
+volumes:
+  db_data:
+
+networks:
+  networkfiles:
       
