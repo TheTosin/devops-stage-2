@@ -1,5 +1,5 @@
 # Step 1: Build the React app
-FROM node:14-alpine build
+FROM node:18-alpine3.18
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -15,10 +15,4 @@ RUN npm install
 COPY . ./
 
 # Run the build and capture output
-RUN npm run build && echo "Build succeeded" || (echo "Build failed" && exit 1)
-
-# Step 2: Serve the React app using Nginx
-FROM nginx:alpine
-
-# Expose port 5173
-EXPOSE 5173
+CMD npm run dev -- --host 0.0.0.0
