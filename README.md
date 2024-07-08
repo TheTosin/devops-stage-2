@@ -26,10 +26,10 @@ Ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fullstack-fastapi-react-template.git
+git clone https://github.com/yourusername/repository url
 cd fullstack-fastapi-react-template
 
-**Environment Variables**
+###Environment Variables
 Create a .env file in the root directory of the repository and add the necessary environment variables. Use the provided .env.example as a reference.
 
 **Running the Application**
