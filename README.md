@@ -80,7 +80,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 For more detailed instructions, refer to the README files in the frontend and backend directories.
 
 
-Feel free to customize it further according to your specific project details and requirements.
-
 
 
